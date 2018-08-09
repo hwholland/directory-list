@@ -1,6 +1,6 @@
 {
     "name": "@hwholland/directory-list",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "micro-service application that returns meta-data about a directory",
     "main": "server.js",
     "dependencies": {

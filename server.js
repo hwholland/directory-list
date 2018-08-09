@@ -20,9 +20,7 @@ function DirectoryList() {
         var directory = req.params[0];
         var items = [];
         const tree = dirTree(directory, {exclude:/node_modules/}, (item, PATH) => {
-            console.log(item);
         });
-        console.log(tree);
         res.send(tree);
     })
     
